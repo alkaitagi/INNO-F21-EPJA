@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-import { program } from 'commander'
-import package from '../package'
+const { program } = require('commander');
+const package = require('../package');
 
 program
     .option('--init', 'helps to init your app')
     .version(package.version)
     .on('--help', () => {
-        console.log('For initial project setup run "prepos-cli --init"');
+        console.log('A package by @alkaitagi. For initial project setup run "prepos-cli --init"');
     })
     .parse()

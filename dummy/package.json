@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@khwar/dor": "^0.0.4"
+    "@khwar/dor": "^0.0.5"
   }
 }
