@@ -1,12 +1,12 @@
 {
   "name": "@khwar/dor",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "prepos-cli": "bin/prepos-cli"
+    "prepos-cli": "bin/init"
   },
   "author": "alkaitagi",
   "license": "MIT",
