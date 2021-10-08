@@ -4,8 +4,8 @@
     "main": "index.js",
     "license": "ISC",
     "dependencies": {
-        "@khwar/templates": "^2.0.0",
-        "@khwar/webpack-config": "^1.0.4",
+        "@khwar/templates": "^1.0.0",
+        "@khwar/webpack-config": "^1.0.0",
         "express": "^4.17.1",
         "webpack-dev-middleware": "^5.1.0"
     },

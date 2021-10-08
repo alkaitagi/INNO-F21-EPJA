@@ -7,10 +7,10 @@
     },
     "license": "ISC",
     "dependencies": {
-        "@khwar/dev-server": "^3.0.4",
-        "@khwar/fire.app": "^1.3.6",
-        "@khwar/templates": "^2.0.0",
-        "@khwar/webpack-config": "^1.0.4",
+        "@khwar/dev-server": "^1.0.0",
+        "@khwar/fire.app": "^1.0.0",
+        "@khwar/templates": "^1.0.0",
+        "@khwar/webpack-config": "^1.0.0",
         "@types/node": "^16.7.1",
         "commander": "^8.1.0"
     }

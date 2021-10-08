@@ -11,8 +11,8 @@
     },
     "license": "ISC",
     "devDependencies": {
-        "@khwar/cli": "^3.0.8",
-        "@khwar/dev-server": "^3.0.4",
+        "@khwar/cli": "^1.0.0",
+        "@khwar/dev-server": "^1.0.0",
         "@types/react": "^17.0.26",
         "@types/react-dom": "^17.0.9",
         "ts-loader": "^9.2.6",

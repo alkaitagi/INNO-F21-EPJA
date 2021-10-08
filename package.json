@@ -1,0 +1,11 @@
+{
+    "name": "inno-f21-epja",
+    "workspaces": [
+        "webpack-config",
+        "templates",
+        "dev-server",
+        "fire.app",
+        "cli",
+        "dummy"
+    ]
+}
