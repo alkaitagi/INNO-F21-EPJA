@@ -6,7 +6,7 @@ const tsConfigPath = path.resolve('tsconfig.json');
 
 const init = () => {
     const dependencies = [
-        '@khwar/dev-server',
+        '@khwar1/dev-server',
         'react@17.0.2',
         'react-dom@17.0.2',
         'typescript',
@@ -23,17 +23,17 @@ const init = () => {
         )
     childProcess
         .execSync(
-            `npm install --save-dev ${devDeps.join(' ')} @khwar/dev-server`,
+            `npm install --save-dev ${devDeps.join(' ')} @khwar1/dev-server`,
             { stdio: 'inherit' }
         )
 
     const package = require(packagePath)
     package.scripts = package.scripts || {}
-    package.scripts.khwar_help = 'npx khwar-cli --help';
-    package.scripts.khwar_init = 'npx khwar-cli --init';
-    package.scripts.start = 'khwar-cli --server';
-    package.scripts.build = 'khwar-cli --build';
-    package.scripts.prod = 'khwar-cli --prod';
+    package.scripts.khwar1_help = 'npx khwar1-cli --help';
+    package.scripts.khwar1_init = 'npx khwar1-cli --init';
+    package.scripts.start = 'khwar1-cli --server';
+    package.scripts.build = 'khwar1-cli --build';
+    package.scripts.prod = 'khwar1-cli --prod';
 
     if (!fs.existsSync(tsConfigPath)) {
         const config = {

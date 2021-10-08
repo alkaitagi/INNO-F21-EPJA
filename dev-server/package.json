@@ -1,11 +1,11 @@
 {
-    "name": "@khwar/dev-server",
+    "name": "@khwar1/dev-server",
     "version": "1.0.0",
     "main": "index.js",
     "license": "ISC",
     "dependencies": {
-        "@khwar/templates": "^1.0.0",
-        "@khwar/webpack-config": "^1.0.0",
+        "@khwar1/templates": "^1.0.0",
+        "@khwar1/webpack-config": "^1.0.0",
         "express": "^4.17.1",
         "webpack-dev-middleware": "^5.1.0"
     },

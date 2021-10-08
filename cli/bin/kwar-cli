@@ -11,7 +11,7 @@ program
     .usage('[command] [options]')
     .version(package.version)
     .on('--help', () => {
-        console.log('For project initial setup launch khwar-cli --init')
+        console.log('For project initial setup launch khwar1-cli --init')
     })
     .parse();
 
@@ -22,7 +22,7 @@ if (options.init) {
 }
 
 if (options.server) {
-    const startServer = require('@khwar/dev-server')
+    const startServer = require('@khwar1/dev-server')
     startServer({ port: options.port })
 }
 

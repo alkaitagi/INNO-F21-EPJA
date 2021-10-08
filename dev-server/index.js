@@ -2,7 +2,7 @@ const path = require("path");
 const express = require("express");
 const webpack = require("webpack");
 const webpackDevMiddleware = require("webpack-dev-middleware");
-const applyHbs = require("@khwar/templates");
+const applyHbs = require("@khwar1/templates");
 const getModuleData = require("./utils/module-data");
 const getModuleConfig = require('./utils/get-module-config')
 
@@ -62,7 +62,7 @@ const startServer = ({ port }) => {
         res.render("index", {
             baseUrl: "/static",
             fireAppVersion: "1.0.0",
-            title: "Khwar",
+            title: "khwar1",
             apps: JSON.stringify({
                 ...(config.app || {}),
                 [moduleData.name]: {

@@ -1,5 +1,5 @@
 {
-    "name": "@khwar/webpack-config",
+    "name": "@khwar1/webpack-config",
     "version": "1.0.0",
     "main": "./lib/index.js",
     "scripts": {

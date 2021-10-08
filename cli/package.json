@@ -1,16 +1,16 @@
 {
-    "name": "@khwar/cli",
-    "version": "1.0.0",
+    "name": "@khwar1/cli",
+    "version": "1.0.2",
     "main": "index.js",
     "bin": {
-        "khwar-cli": "bin/khwar-cli"
+        "khwar1-cli": "bin/khwar1-cli"
     },
     "license": "ISC",
     "dependencies": {
-        "@khwar/dev-server": "^1.0.0",
-        "@khwar/fire.app": "^1.0.0",
-        "@khwar/templates": "^1.0.0",
-        "@khwar/webpack-config": "^1.0.0",
+        "@khwar1/dev-server": "^1.0.0",
+        "@khwar1/fire.app": "^1.0.0",
+        "@khwar1/templates": "^1.0.0",
+        "@khwar1/webpack-config": "^1.0.0",
         "@types/node": "^16.7.1",
         "commander": "^8.1.0"
     }
