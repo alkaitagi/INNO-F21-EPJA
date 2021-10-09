@@ -6,9 +6,11 @@
 </head>
 
 <body>
-    {{!--
-    <script src="{{{baseUrl}}}/fire.app/{{{fireAppVersion}}}/index.js"></script> --}}
-    {{!--
+    <div id="root"></div>
+    <h1>Hello from Dummy!</h1>
+    <h3>Does FireApp work?</h3>
+
+    <script src="{{{baseUrl}}}/fire.app/{{{fireAppVersion}}}/index.js"></script>
     <script>
         fireApp({
             apps: {{{ apps }}},
@@ -16,9 +18,9 @@
             config: {{{ config }}},
             features: {{{ features }}},
         })
-    </script> --}}
-    <div id="root"></div>
-    <h1>Hello from Dummy!</h1>
+    </script>
+
+    <h3>Seems it does!</h3>
 </body>
 
 </html>
