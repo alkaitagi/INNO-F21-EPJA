@@ -1,6 +1,6 @@
 {
     "name": "@khwar1/templates",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "index.js",
     "license": "ISC",
     "devDependencies": {
