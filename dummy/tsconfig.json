@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "lib": [
+            "DOM",
+            "ES2021"
+        ],
+        "jsx": "react",
+        "strict": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true
+    }
+}

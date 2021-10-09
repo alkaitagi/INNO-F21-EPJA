@@ -1,14 +1,25 @@
 {
-  "name": "dummy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@khwar/dor": "^0.0.5"
-  }
+    "name": "@khwar1/dummy",
+    "version": "1.0.0",
+    "main": "./src/index.tsx",
+    "scripts": {
+        "khwar1_help": "npx khwar1-cli --help",
+        "khwar1_init": "npx khwar1-cli --init",
+        "start": "khwar1-cli --server",
+        "build": "khwar1-cli --build",
+        "prod": "khwar1-cli --prod"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "@khwar1/cli": "^1.0.1",
+        "@khwar1/dev-server": "^1.0.0",
+        "@types/react": "^17.0.27",
+        "@types/react-dom": "^17.0.9",
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.4.3"
+    },
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    }
 }

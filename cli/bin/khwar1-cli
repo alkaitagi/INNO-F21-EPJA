@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+const { program } = require('commander');
+const package = require('../package');
+
+program
+    .option('--init', 'helps to init your app')
+    .option('--server', 'starts dev server')
+    .option('--build', 'build project')
+    .option('--prod', 'production mode')
+    .option('-p, --port <port>', 'port at which server will listen', 8080)
+    .usage('[command] [options]')
+    .version(package.version)
+    .on('--help', () => {
+        console.log('For project initial setup launch khwar1-cli --init')
+    })
+    .parse();
+
+const options = program.opts();
+
+if (options.init) {
+    require('../src/init')(options);
+}
+
+if (options.server) {
+    const startServer = require('@khwar1/dev-server')
+    startServer({ port: options.port })
+}
+
+if (options.build) {
+    require('../src/build')(options);
+}

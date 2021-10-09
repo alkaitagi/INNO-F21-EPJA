@@ -1,11 +1,16 @@
 {
-  "name": "kwar-dev-server",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "@khwar1/dev-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "ISC",
+    "dependencies": {
+        "@khwar1/templates": "^1.0.0",
+        "@khwar1/webpack-config": "^1.0.0",
+        "express": "^4.17.1",
+        "webpack-dev-middleware": "^5.1.0"
+    },
+    "devDependencies": {
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.4.3"
+    }
 }

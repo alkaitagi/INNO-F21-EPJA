@@ -1,0 +1,17 @@
+{
+    "name": "@khwar1/cli",
+    "version": "1.0.5",
+    "main": "index.js",
+    "bin": {
+        "khwar1-cli": "bin/khwar1-cli"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "@khwar1/dev-server": "^1.0.0",
+        "@khwar1/fire.app": "^1.0.0",
+        "@khwar1/templates": "^1.0.0",
+        "@khwar1/webpack-config": "^1.0.0",
+        "@types/node": "^16.7.1",
+        "commander": "^8.1.0"
+    }
+}
