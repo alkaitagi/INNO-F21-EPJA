@@ -1,6 +1,6 @@
 {
     "name": "@khwar1/cli",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "main": "index.js",
     "bin": {
         "khwar1-cli": "bin/khwar1-cli"
